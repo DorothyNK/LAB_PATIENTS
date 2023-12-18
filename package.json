@@ -1,10 +1,15 @@
 {
+  "type":"module",
   "name": "lab_patients",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
+  },
+
+  "ependencies": {
+    "express" : "^5.0.0"
   },
   "keywords": [],
   "author": "",
